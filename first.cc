@@ -68,7 +68,7 @@ main (int argc, char *argv[])
   clientApps.Start (Seconds (2.0));                                     // Client starts data transfer after 2.0s
   clientApps.Stop (Seconds (10.0));                                     // Time limit for transfer
 
-  AnimationInterface anim ("first1.xml");                               // Animation file is created for first.cc
+  AnimationInterface anim ("graph.xml");                               // Animation file is created for first.cc
   anim.SetConstantPosition(nodes.Get(0), 10.0, 10.0);                   // Sets node position on interface
   anim.SetConstantPosition(nodes.Get(1), 20.0, 20.0);
 
